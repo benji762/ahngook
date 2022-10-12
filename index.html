@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<title>김지운_안국약품 반응형 레이아웃</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/slide_updown.js"></script>
+<script src="js/header.js"></script>
+<script src="js/slick_active.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+  <header id="header" class="flex"> <!--fixed -->
+    <h1 class="logo"><a href="#"><img src="images/hd-logo_off.svg" alt="안국약품로고"></a></h1>
+    <nav class="nav white">
+      <ul class="gnb flex">
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">제품정보</a></li>
+        <li><a href="#">연구개발</a></li>
+        <li><a href="#">홍보센터</a></li>
+        <li><a href="#">채용정보</a></li>
+        <li><a href="#">고객지원</a></li>
+      </ul>
+      <nav class="nav_on">
+        <ul class="nav_on_gnb flex inner">
+          <li>
+            <a href="#">회사소개</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">인사말</a>
+                <a href="#">연혁</a>
+                <a href="#">VISION</a>
+                <a href="#">CI 소개</a>
+                <a href="#">조직도</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+          <li>
+            <a href="#">제품정보</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">제품소식</a>
+                <a href="#">제품검색</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+          <li>
+            <a href="#">연구개발</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">R&D VISION</a>
+                <a href="#">연혁 및 연구실적</a>
+                <a href="#">연구개발품목</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+          <li>
+            <a href="#">홍보센터</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">안국뉴스룸</a>
+                <a href="#">안국홍보관</a>
+                <a href="#">소셜미디어</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+          <li>
+            <a href="#">채용정보</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">인재상</a>
+                <a href="#">복리후생</a>
+                <a href="#">채용공고</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+          <li>
+            <a href="#">고객지원</a>
+            <ul class="nav_on_depth2">
+              <li class="flex_col">
+                <a href="#">FAQ</a>
+                <a href="#">고객게시판</a>
+                <a href="#">윤리경영</a>
+                <a href="#">사이버감사팀</a>
+              </li>
+            </ul><!--nav_on_depth2-->
+          </li>
+  
+        </ul><!--nav_on_gnb-->
+      </nav>   
+    </nav>
+    <p class="nav_btn">
+      <button><span>네비한번에보기</span><span></span><span></span></button>
+    </p>
+  </header>
+  <section class="lazy">
+    <div> <!--1-->
+    <section id="slide">
+      <div class="inner flex">
+        <div class="slide_in flex">
+          <p class="slide_in_num">01</p>
+          <div class="slide_in_txt">
+            <h2>For a <b class="text_magenta">BETTER Life</b></h2>
+            <p>우수의약품 개발을 통한 인류건강과 행복실현에 앞장서겠습니다</p>
+          </div><!--slide_in_txt-->
+        </div><!--slide_in-->
+      </div><!--inner-->
+    </section>
+  </div> <!--1-->
+    <div> <!--2-->
+    <section id="slide">
+      <div class="inner flex">
+        <div class="slide_in flex">
+          <p class="slide_in_num">02</p>
+          <div class="slide_in_txt">
+            <h2>Ahngook 2030 <b class="text_magenta">New Vision </b></h2>
+            <p>의약 기술과 디지털 정보를 융합하여 안전하고 차별화된 Healthcare 제품을 제공합니다</p>
+          </div><!--slide_in_txt-->
+        </div><!--slide_in-->
+      </div><!--inner-->
+    </section> 
+  </div> <!--2-->
+</section>
+  <div id="main_src">
+    <div class="inner">
+      <div class="main_src_in">
+        <h4>제품 검색하기</h4>
+        <form>
+            <div class="src_wrap flex">
+              <input type="search" placeholder="찾으시는 제품명을 입력해주세요" >
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+      </div><!-- main_src_in-->
+    </div> <!--inner-->
+  </div> <!--#main_src-->
+  <div id="main_count">
+    <div class="inner">
+      <div class="main_count_in_wrap flex">
+        <div class="main_count_in flex">
+            <div class="main_count_in_left">
+              <p class="main_count_in_left_img"></p>
+            </div><!--main_count_in_left-->
+            <div class="main_count_in_right">
+              <p>(2022년 기준)</p>
+              <h4>426,039<span>시간</span></h4>
+              <p>안국약품은 1959년부터
+                <b>63년간 국민건강을 지켜왔습니다.</b>
+              </p>
+            </div><!--main_count_in_right-->
+        </div><!--main_count_in-->
+        <div class="main_count_in flex">
+            <div class="main_count_in_left">
+              <p class="main_count_in_left_img"></p>
+            </div><!--main_count_in_left-->
+            <div class="main_count_in_right">
+              <p>(UNTIL 2021.05)</p>
+              <h4>2,909,146<span>개</span></h4>
+              <p>40여년간 토비콤은
+                <b>눈 건강을 지키며 함께 해 왔습니다.</b>
+              </p>
+            </div><!--main_count_in_right-->
+        </div><!--main_count_in-->
+      </div><!--main_count_in_wrap-->
+    </div><!--inner-->
+  </div><!--#main_coint-->
+  <section id="main_slider">  
+    <div class="inner">
+      <h4 class="main_slider_tit text_rotate">OUR PRODUCT</h4>
+      <div class="swiper mySwiper main-prod-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <div class="main_slider_in flex">
+              <div class="main_slider_in_text">
+                <p>전문의약품</p>
+                <h2 class="main_slider_in_text_tit">Levotension Tab</h2>
+                <h2>레보테션정</h2>
+                <p class="main_slider_in_text_txt">
+                  <b>혈관확장 작용으로 혈압을 낮추고, 심장 부담을 감소시키며</b>
+                  <b>심장으로의 산소공급을 늘려줍니다.</b>
+                  <b>고혈압,관상동맥의 고정폐쇄(안정협심증) 또는 관상혈관계의</b>
+                  <b>혈관경력수축(이형협심증)에 의한 심근성 허혈증 치료에 사용됩니다.</b>
+                </p>
+              </div><!--main_slider_in_cont-->
+      
+            
+      
+              <div class="main_slider_in_img">
+                <a href="#"><img src="images/main-prod-img-01-1.png" alt="레보텐션 정 사진"></a>
+                <button>2.5mg</button>
+                <button>5mg</button>
+              </div><!--main_slider_in_img-->
+          </div>
+            </div><!--1-->
+            <div class="swiper-slide">
+            <div class="main_slider_in flex">
+              <div class="main_slider_in_text">
+                <p>전문의약품</p>
+                <h2 class="main_slider_in_text_tit">Levotension Tab</h2>
+                <h2>레보테션정</h2>
+                <p class="main_slider_in_text_txt">
+                  <b>혈관확장 작용으로 혈압을 낮추고, 심장 부담을 감소시키며</b>
+                  <b>심장으로의 산소공급을 늘려줍니다.</b>
+                  <b>고혈압,관상동맥의 고정폐쇄(안정협심증) 또는 관상혈관계의</b>
+                  <b>혈관경력수축(이형협심증)에 의한 심근성 허혈증 치료에 사용됩니다.</b>
+                </p>
+              </div><!--main_slider_in_cont-->
+      
+            
+      
+              <div class="main_slider_in_img">
+                <a href="#"><img src="images/main-prod-img-01-1.png" alt="레보텐션 정 사진"></a>
+                <button>2.5mg</button>
+                <button>5mg</button>
+              </div><!--main_slider_in_img-->
+          </div>
+            </div><!--2-->
+            <div class="swiper-slide">
+              <div class="main_slider_in flex">
+                <div class="main_slider_in_text">
+                  <p>전문의약품</p>
+                  <h2 class="main_slider_in_text_tit">Levotension Tab</h2>
+                  <h2>레보테션정</h2>
+                  <p class="main_slider_in_text_txt">
+                    <b>혈관확장 작용으로 혈압을 낮추고, 심장 부담을 감소시키며</b>
+                    <b>심장으로의 산소공급을 늘려줍니다.</b>
+                    <b>고혈압,관상동맥의 고정폐쇄(안정협심증) 또는 관상혈관계의</b>
+                    <b>혈관경력수축(이형협심증)에 의한 심근성 허혈증 치료에 사용됩니다.</b>
+                  </p>
+                </div><!--main_slider_in_cont-->
+        
+              
+        
+                <div class="main_slider_in_img">
+                  <a href="#"><img src="images/main-prod-img-01-1.png" alt="레보텐션 정 사진"></a>
+                  <button>2.5mg</button>
+                  <button>5mg</button>
+                </div><!--main_slider_in_img-->
+            </div>
+            </div><!--3-->
+            <div class="swiper-slide">
+                <div class="main_slider_in flex">
+                  <div class="main_slider_in_text">
+                    <p>전문의약품</p>
+                    <h2 class="main_slider_in_text_tit">Levotension Tab</h2>
+                    <h2>레보테션정</h2>
+                    <p class="main_slider_in_text_txt">
+                      <b>혈관확장 작용으로 혈압을 낮추고, 심장 부담을 감소시키며</b>
+                      <b>심장으로의 산소공급을 늘려줍니다.</b>
+                      <b>고혈압,관상동맥의 고정폐쇄(안정협심증) 또는 관상혈관계의</b>
+                      <b>혈관경력수축(이형협심증)에 의한 심근성 허혈증 치료에 사용됩니다.</b>
+                    </p>
+                  </div><!--main_slider_in_cont-->
+          
+                
+          
+                  <div class="main_slider_in_img">
+                    <a href="#"><img src="images/main-prod-img-01-1.png" alt="레보텐션 정 사진"></a>
+                    <button>2.5mg</button>
+                    <button>5mg</button>
+                  </div><!--main_slider_in_img-->
+              </div>
+            </div><!--4-->
+            <div class="swiper-slide">
+                <div class="main_slider_in flex">
+                  <div class="main_slider_in_text">
+                    <p>전문의약품</p>
+                    <h2 class="main_slider_in_text_tit">Levotension Tab</h2>
+                    <h2>레보테션정</h2>
+                    <p class="main_slider_in_text_txt">
+                      <b>혈관확장 작용으로 혈압을 낮추고, 심장 부담을 감소시키며</b>
+                      <b>심장으로의 산소공급을 늘려줍니다.</b>
+                      <b>고혈압,관상동맥의 고정폐쇄(안정협심증) 또는 관상혈관계의</b>
+                      <b>혈관경력수축(이형협심증)에 의한 심근성 허혈증 치료에 사용됩니다.</b>
+                    </p>
+                  </div><!--main_slider_in_cont-->
+          
+                
+          
+                  <div class="main_slider_in_img">
+                    <a href="#"><img src="images/main-prod-img-01-1.png" alt="레보텐션 정 사진"></a>
+                    <button>2.5mg</button>
+                    <button>5mg</button>
+                  </div><!--main_slider_in_img-->
+              </div>
+            </div><!--5-->
+          
+        </div><!--swiper-wrapper-->
+        <div class="swiper-pagination"></div>
+      </div><!--swiper_1-->
+      <div class="swiper-control main-prod-slider-control">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="main_slider_chevron_btn_wrap">
+        <button class="chevron_btn left"></button>
+        <button class="chevron_btn right"></button>
+      </div>
+    </div>
+  </section>
+  <section id="main_center">
+      <div class="main_center_banner">
+        <div class="main_center_tit_containor">
+        <h4 class="main_center_tit text_rotate">ABOUT AHNGOOK</h4>
+        </div>
+        <div class="inner">   
+          <div class="main_center_banner_text">
+              <h2>For a <b>better Life</b></h2>
+              <span>홍보센터 바로가기</span>
+              <a href="#"><span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+          </div><!--main_center_banner_text-->
+        </div><!--inner-->
+
+      </div><!--main_center_banner-->
+      <div class="main_center_slider">
+        <div class="main_center_slider_article_wrap flex">
+          <article class="slider_article" id="rnd_center">
+            <a href="#">
+              <p>R&D Center</p>
+              <h4>연구개발</h4>
+              <b>안국약품은 1959년 부터</b>
+              <b>60여년간 국민 건강을 지켜왔습니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+          <article class="slider_article" id="recruit">
+            <a href="#">
+              <p>Recruit</p>
+              <h4>채용정보</h4>
+              <b>1981년 국내 최초로</b>
+              <b>먹는 눈 영양제 토비콤을 출시했습니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+          <article class="slider_article" id="audit_team">
+            <a href="#">
+              <p>Audit Team</p>
+              <h4>사이버 감사팀</h4>
+              <b>투명하고 공정하게 수행하는</b>
+              <b>사이버 감사팀 입니다</b>
+              <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
+          </article>
+        </div> <!--main_center_slider_article_wrap-->
+      </div><!--main_center_slider-->
+  </section>
+  <section id="main_story">
+    <div class="inner flex">
+      <h4 class="main_story_tit text_rotate">OUR STORY</h4>
+      <div class="main_story_left flex_col">
+        <h2>News Room</h2>
+        <p>안국약품의 소식을 투명하고 공정하게 전해드립니다.</p>
+        <a href="#">view more</a>
+        <div class="main_story_left_btn_wrap">
+          <button class="chevron_btn left"></button>
+          <button class="chevron_btn right"></button>
+        </div>
+      </div>
+      <div class="main_story_right"><!-- 컨텐츠 레이아웃을 좌우로 잡아주는 역할-->
+        <div class="main_story_article_wrap flex">
+          <!-- slide를 사용할 때 아티클이 잘리더라도 보여야하는 상황이라 아티클을 담아주는 박스를 추가로 만듬(width 값은 아티클 갯수에 맞춰서 여백까지 계산한 크기로 만들어줌
+                / 아티클의 사이즈는 어짜피 넘어가는 영역은 잘리고 버튼클릭시 다음 아티클이 보이기 때문에 픽셀로 주는 방법이 좋음)-->
+          <article class="main_story_article">
+            <a href="#">
+              <div class="article_img"></div>
+              <div class="article_txt">
+                <h4>안국약품, 수원KT위즈 프로야구단과 제품 후</h4>
+                <p>2022-06-29</p>
+                <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+              </div>
+            </a>
+          </article>
+          <article class="main_story_article">
+            <a href="#" class="flex_col">
+              <div class="article_img"></div>
+              <div class="article_txt">
+                <h4>안국약품, 수원KT위즈 프로야구단과 제품 후</h4>
+                <p>2022-06-29</p>
+                <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+              </div>
+            </a>
+          </article>
+          <article class="main_story_article">
+            <a href="#" class="flex_col">
+              <div class="article_img"></div>
+              <div class="article_txt">
+                <h4>안국약품, 수원KT위즈 프로야구단과 제품 후</h4>
+                <p>2022-06-29</p>
+                <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+              </div>
+            </a>
+          </article>
+        </div><!--main_story_article_wrap-->
+      </div><!--main_story_right-->
+    </div><!--inner-->
+    
+  </section>
+  <section id="main_brand">
+    <h4 class="main_brand_tit text_rotate">OUR BRAND</h4>
+    <div class="inner flex">
+      <div class="main_brand_left">
+        <div class="main_brand_left_bg">
+          <div class="main_brand_left_txt">
+            <h4>Always
+              <b>Wonder</b>
+            </h4>
+          </div>
+          <a href="#">에이원더 사이트 바로가기<span><i class="fa-solid fa-arrow-right"></i></span></a>
+        </div>
+      </div><!--main_brand_left-->
+      <div class="main_brand_right flex_col">
+        <h2>Awonder</h2>
+        <p>안국약품의 소식을 투명하고 공정하게 전해드립니다.</p>
+        <a href="#">view more</a>
+      </div><!--main_brand_right-->
+  </div><!--inner-->
+  </section>
+  <section id="main_gallery">
+    <div class="main_gallery_gallery_bg">
+      <div class="main_gallery_gallery_txt flex_col">
+        <h2>안국문화재단 AG Gallery</h2>
+        <p>누구나 미술문화의 향유를 즐길 수 있는 도심 속 문화공간</p>
+        <span class="arrow_btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+        <a href='#' class="arrow_btn top"><i class="fas fa-long-arrow-alt-up"></i></a>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="inner flex">
+      <h1 class="foot_logo"><a href="#"><img src="images/ft-logo.svg" alt="안국약품 로고"></a></h1>
+      <div class="foot_center flex_col">
+        <p class="foot_center_link_wrap">
+          <a href="#">이용약관</a>
+          <a href="#">이메일무단수집거부</a>
+          <a href="#">개인정보처리방침</a>
+        </p><!--foot_link_wrap-->
+        <p class="foot_center_address">
+          <b>150-953 서울 영등포구 시흥대로 613 대표전화 02) 3289-4200 대표자명 : 원덕권</b>
+          <b>사업자등록번호 : 118-81-04188</b>
+          <b>[SSl 보안프로그램적용]안국약품은 더욱 안심하고 신뢰 할 수 있는 서비스를 제공하기 위해 최선을 다하겠습니다.</b>
+        </p>
+        <p class="foot_center_copyright">
+          COPYRIGHT(C) 2022 BY AHNGOOK PHARM ALL RIGHTS RESERVED.
+        </p>
+      </div><!--foot_center-->
+      <div class="foot_right">
+        <div class="family_site_wrap">
+          <div class="slide_up_down">
+            <button class="family_site">Family Site</button>
+            <ul>
+              <button><span></span><span></span></button>
+              <li><a href="#">제품정보</a></li>
+              <li><a href="#">홍보센터</a></li>
+              <li><a href="#">연구개발</a></li>
+              <li><a href="#">채용정보</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!--foot_right-->
+    </div><!--inner-->
+  </footer>
+  <div class="quick_btn_wrap">
+    <div class="slide_up_down">
+      <button class="quick_btn">QUICK</button>
+      <ul>
+        <button><span></span><span></span></button>
+        <li><a href="#">제품정보</a></li>
+        <li><a href="#">홍보센터</a></li>
+        <li><a href="#">연구개발</a></li>
+        <li><a href="#">채용정보</a></li>
+        <li><a href="#">사이버<br>감사팀</a></li>
+        <li><a href="#">News<br>Room</a></li>
+        <li><a href="#">에이원더</a></li>
+        <li><a href="#">안국<br>문화제단</a></li>
+      </ul>
+    </div> <!--slide_up_down-->
+  </div>
+</div> <!--#wrap-->
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var prodbullet = ['레보텐션정', '시네츄라 시럽', '레토프라정', '레보살탄정', '루파핀정'];
+var prodswiper = new Swiper('.main-prod-slider', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    observer: true,
+    observerParents: true,
+    // autoplay: {
+    // 	delay: 5000,
+    // },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination:true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<div class="' + className + '"><span>' + (prodbullet[index]) + '</span></div>';
+        }
+    }
+});
+ </script>
+
+</body>
+
+</html>
